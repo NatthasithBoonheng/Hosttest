@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav h1{
+    color: black;
+    margin-left: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* เพิ่มเงาลงมา */
+    position: relative;
+
+    
+}
+.pic{
+    background-image: url(/view-from-bears-hump.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.profile .pro{
+    
+    background-image: url(/DSC_7583.jpg);
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 8rem;
+    border: 10px solid white;
+    box-shadow: 10px black;
+}
+
+.text{
+    margin-left: 2.5rem;
+    margin-top: 15px;
+}
